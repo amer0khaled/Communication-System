@@ -1,0 +1,14 @@
+E:\amer khaled\My Repos\Communication System\bin\Debug\net9.0\Communication System.exe
+E:\amer khaled\My Repos\Communication System\bin\Debug\net9.0\Communication System.deps.json
+E:\amer khaled\My Repos\Communication System\bin\Debug\net9.0\Communication System.runtimeconfig.json
+E:\amer khaled\My Repos\Communication System\bin\Debug\net9.0\Communication System.dll
+E:\amer khaled\My Repos\Communication System\bin\Debug\net9.0\Communication System.pdb
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.GeneratedMSBuildEditorConfig.editorconfig
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.AssemblyInfoInputs.cache
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.AssemblyInfo.cs
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.csproj.CoreCompileInputs.cache
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.dll
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\refint\Communication System.dll
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.pdb
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.genruntimeconfig.cache
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\ref\Communication System.dll
