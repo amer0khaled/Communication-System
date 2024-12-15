@@ -14,12 +14,15 @@ namespace Communication_System
 
         public HuffmanEncoder(string inputFilePath, string outputFilePath)
         {
+            // convert the entire file into one big string
             text = File.ReadAllText(inputFilePath);
+
             this.outputFilePath = outputFilePath;
+
             charTable = new Dictionary<char, string>();
         }
 
-        private HuffmanNode BuildTree()
+        private Dictionary<char, int> CharactersFrequency()
         {
             var frequencyMap = new Dictionary<char, int>();
 
@@ -28,26 +31,33 @@ namespace Communication_System
             {
                 if (!frequencyMap.ContainsKey(c))
                     frequencyMap[c] = 0;
+
                 frequencyMap[c]++;
             }
+            return frequencyMap;
+        }
+
+        private HuffmanNode BuildTree()
+        {
+            var frequencyMap = CharactersFrequency();
 
             // Build priority queue
-            var priorityQueue = new PriorityQueue<HuffmanNode, int>();
+            var huffmanTree = new PriorityQueue<HuffmanNode, int>();
             foreach (var entry in frequencyMap)
             {
-                priorityQueue.Enqueue(new HuffmanNode(entry.Value, entry.Key, null, null), entry.Value);
+                huffmanTree.Enqueue(new HuffmanNode(entry.Value, entry.Key, null, null), entry.Value);
             }
 
             // Combine nodes
-            while (priorityQueue.Count > 1)
+            while (huffmanTree.Count > 1)
             {
-                var left = priorityQueue.Dequeue();
-                var right = priorityQueue.Dequeue();
-                var newNode = new HuffmanNode(left.Freq + right.Freq, '\0', left, right);
-                priorityQueue.Enqueue(newNode, newNode.Freq);
+                var left = huffmanTree.Dequeue();
+                var right = huffmanTree.Dequeue();
+                var parent = new HuffmanNode(left.Freq + right.Freq, '\0', left, right);
+                huffmanTree.Enqueue(parent, parent.Freq);
             }
 
-            return priorityQueue.Peek();
+            return huffmanTree.Peek();
         }
 
         private void BuildCharTable(HuffmanNode root, string code)
@@ -75,14 +85,17 @@ namespace Communication_System
 
         private void WriteBinaryData(string binaryString, BinaryWriter writer)
         {
-            int paddingSize = (8 - binaryString.Length % 8) % 8;
+            // calc pad size
+            int paddingSize = binaryString.Length % 8 == 0 ? 0 : 8 - (binaryString.Length % 8);
 
             // Add padding
             binaryString = binaryString.PadRight(binaryString.Length + paddingSize, '0');
 
+            // metadata needed at decoding
             writer.Write(paddingSize);
             writer.Write(binaryString.Length / 8);
 
+            // Write the binary data byte by byte
             for (int i = 0; i < binaryString.Length; i += 8)
             {
                 byte b = Convert.ToByte(binaryString.Substring(i, 8), 2);

@@ -12,3 +12,4 @@ E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\refint\Communicati
 E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.pdb
 E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.genruntimeconfig.cache
 E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\ref\Communication System.dll
+E:\amer khaled\My Repos\Communication System\obj\Debug\net9.0\Communication System.sourcelink.json
