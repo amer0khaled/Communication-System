@@ -59,5 +59,5 @@ Handles the decoding of a Huffman-encoded binary file. It:
 
 ## HuffmanNode
 
-Represents a node in the Huffman tree. It holds the frequency of a character and pointers to its left and right children.
+    Represents a node in the Huffman tree. It holds the frequency of a character and pointers to its left and right children.
 
