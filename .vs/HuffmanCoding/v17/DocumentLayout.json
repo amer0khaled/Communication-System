@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\amer khaled\\My Repos\\Huffman Coding\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|e:\\amer khaled\\my repos\\huffman coding\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|e:\\amer khaled\\my repos\\huffman coding\\huffmannode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|solutionrelative:huffmannode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|e:\\amer khaled\\my repos\\huffman coding\\huffmanencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|solutionrelative:huffmanencoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|e:\\amer khaled\\my repos\\huffman coding\\huffmandecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B21B2A43-E0FE-41B0-A53B-F2B3A0398211}|HuffmanCoding.csproj|solutionrelative:huffmandecoder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\amer khaled\\My Repos\\Huffman Coding\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\amer khaled\\My Repos\\Huffman Coding\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwAIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:30:40.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HuffmanNode.cs",
+              "DocumentMoniker": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanNode.cs",
+              "RelativeDocumentMoniker": "HuffmanNode.cs",
+              "ToolTip": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanNode.cs",
+              "RelativeToolTip": "HuffmanNode.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:30:35.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HuffmanDecoder.cs",
+              "DocumentMoniker": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanDecoder.cs",
+              "RelativeDocumentMoniker": "HuffmanDecoder.cs",
+              "ToolTip": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanDecoder.cs",
+              "RelativeToolTip": "HuffmanDecoder.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:29:45.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HuffmanEncoder.cs",
+              "DocumentMoniker": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanEncoder.cs",
+              "RelativeDocumentMoniker": "HuffmanEncoder.cs",
+              "ToolTip": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanEncoder.cs",
+              "RelativeToolTip": "HuffmanEncoder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T15:29:43.987Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
