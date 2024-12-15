@@ -1,4 +1,4 @@
-﻿using Communication_System;
+﻿using HuffmanCoding;
 
 internal class Program
 {

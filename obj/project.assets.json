@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\amer khaled\\My Repos\\Communication System\\Communication System.csproj",
-      "projectName": "Communication System",
-      "projectPath": "E:\\amer khaled\\My Repos\\Communication System\\Communication System.csproj",
+      "projectUniqueName": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanCoding.csproj",
+      "projectName": "HuffmanCoding",
+      "projectPath": "E:\\amer khaled\\My Repos\\Huffman Coding\\HuffmanCoding.csproj",
       "packagesPath": "C:\\Users\\lenovo-pcv56t56\\.nuget\\packages\\",
-      "outputPath": "E:\\amer khaled\\My Repos\\Communication System\\obj\\",
+      "outputPath": "E:\\amer khaled\\My Repos\\Huffman Coding\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
