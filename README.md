@@ -16,7 +16,7 @@ The project contains the following key components:
 
 ## Requirements
 - .NET 6.0 or later
-- 
+  
 ## Usage
 
 ### Command-line Usage
